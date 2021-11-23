@@ -1,0 +1,28 @@
+a {
+    color: #005aa7;
+    text-decoration: underline;
+    background-color: transparent;
+}
+body{
+    background-color: #f2f7fb;
+    color: #424445;
+    font-family: CeraPRO,arial,helvetica,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.home-header {
+   height: 100px;
+   .row {
+       height:100%;
+   }
+   .container-lg{
+       padding: 10px;
+     
+   }
+   .nhl-logo {
+        fill: #00294b;
+        
+        height: 60px;
+   }
+}
