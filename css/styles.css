@@ -1,28 +1,77 @@
 a {
-  color: #005aa7;
-  text-decoration: underline;
+  color: #ffffff;
+  text-decoration: none;
   background-color: transparent;
 }
 
 body {
   background-color: #f2f7fb;
-  color: #424445;
+  color: #ffffff;
   font-family: CeraPRO, arial, helvetica, sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
 }
 
-.home-header {
-  height: 100px;
-}
 .home-header .row {
+  max-width: 1320px;
+  margin: auto;
+}
+.home-header .main-header {
+  height: 100%;
+  padding: 20px;
+  background: #005aaa;
+}
+.home-header .main-header .page-title {
+  margin: auto;
+}
+.home-header .main-header .nhl-logo {
+  fill: #ffffff;
+  height: 80px;
+}
+.home-header .main-header .navbar {
+  text-align: end;
+}
+.home-header .sub-header {
+  height: 40px;
+  background: #013A75;
+}
+.home-header .sub-header .row {
   height: 100%;
 }
-.home-header .container-lg {
-  padding: 10px;
+
+.top-body-item img {
+  display: block;
 }
-.home-header .nhl-logo {
-  fill: #00294b;
-  height: 60px;
+
+.top-item-text {
+  text-align: center;
+  width: 100%;
+  padding-top: 50px;
+  text-shadow: 2px 2px 3px black;
+}
+
+@media (min-width: 640px) {
+  .top-item-text h1 {
+    font-size: 2rem;
+  }
+  .top-item-text p {
+    font-size: 1.1rem;
+  }
+}
+@media (min-width: 768px) {
+  .top-item-text h1 {
+    font-size: 3rem;
+  }
+  .top-item-text p {
+    font-size: 1.3rem;
+  }
+}
+@media (min-width: 1024px) {
+  .top-item-text h1 {
+    font-size: 4rem;
+  }
+  .top-item-text p {
+    font-size: 1.5rem;
+  }
 }/*# sourceMappingURL=styles.css.map */
