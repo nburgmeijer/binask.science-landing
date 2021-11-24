@@ -24,6 +24,8 @@ body {
 }
 .home-header .main-header .page-title {
   margin: auto;
+  max-width: max(0px, calc((100% - 420px)*999));
+  overflow: hidden;
 }
 .home-header .main-header .nhl-logo {
   fill: #ffffff;
@@ -33,11 +35,12 @@ body {
   text-align: end;
 }
 .home-header .sub-header {
-  height: 40px;
+  height: 100%;
   background: #013A75;
 }
 .home-header .sub-header .row {
-  height: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .top-body-item img {
